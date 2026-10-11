@@ -5,7 +5,7 @@ go 1.23
 require (
 	github.com/storage-lock/go-kv-storage v0.0.1
 	github.com/storage-lock/go-storage-lock v0.0.6
-	github.com/storage-lock/go-storage-lock-factory v0.0.2-0.20230830164658-ef9d99aed23d
+	github.com/storage-lock/go-storage-lock-factory v0.0.2
 	github.com/stretchr/testify v1.11.1
 )
 
@@ -23,5 +23,3 @@ require (
 	github.com/storage-lock/go-utils v0.0.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/storage-lock/go-storage-lock-factory => ../go-storage-lock-factory
